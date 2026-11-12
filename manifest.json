@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "hihry.pikagotchi",
+  "name": "Pikagotchi",
+  "version": "1.0.0",
+  "author": "hihry",
+  "license": "MIT",
+  "description": "Full-color Pokémon desktop pet for Omarchy (Pokéball → Pichu → Pikachu → Raichu): lives in your bar, grows up in a Pokémon-themed room, and roams & climbs your Hyprland windows.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Pikagotchi",
+    "description": "Your Pokémon companion living in the bar. Click to open its room.",
+    "category": "Fun",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
